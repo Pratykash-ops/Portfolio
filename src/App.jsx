@@ -21,8 +21,19 @@ const App = () => {
           <Route path="/" element={
             <>
               <Helmet>
-                <title>Pratyaksh Baghel | Full-Stack Developer</title>
-                <meta name="description" content="Portfolio of Pratyaksh Baghel, a Full-Stack Developer and Technical Strategist focused on building scalable web solutions." />
+                <title>Pratyaksh Baghel | Full-Stack Developer & Technical Strategist</title>
+                <meta name="description" content="Hi, I'm Pratyaksh Baghel! I'm a Full-Stack Developer and Technical Strategist. Welcome to my portfolio, where you can explore my innovative projects, scalable web architectures, and creative digital solutions." />
+                <meta name="keywords" content="Pratyaksh Baghel, Full-Stack Developer, Technical Strategist, Portfolio, Web Developer, React, Node.js" />
+                <meta name="author" content="Pratyaksh Baghel" />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="https://pratyaksh.dev/" />
+                <meta property="og:title" content="Pratyaksh Baghel | Full-Stack Developer & Technical Strategist" />
+                <meta property="og:description" content="Hi, I'm Pratyaksh Baghel! I'm a Full-Stack Developer and Technical Strategist. Welcome to my portfolio, where you can explore my innovative projects, scalable web architectures, and creative digital solutions." />
+                <meta property="og:image" content="https://pratyaksh.dev/og-image.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Pratyaksh Baghel | Full-Stack Developer & Technical Strategist" />
+                <meta name="twitter:description" content="Hi, I'm Pratyaksh Baghel! I'm a Full-Stack Developer and Technical Strategist. Welcome to my portfolio, where you can explore my innovative projects and creative digital solutions." />
+                <meta name="twitter:image" content="https://pratyaksh.dev/og-image.png" />
               </Helmet>
               <Hero />
               <About />

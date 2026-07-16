@@ -6,7 +6,18 @@ const PrivacyPolicy = () => {
     <>
       <Helmet>
         <title>Privacy Policy | Pratyaksh Baghel</title>
-        <meta name="description" content="Privacy policy regarding data collection and usage on the portfolio website of Pratyaksh Baghel." />
+        <meta name="description" content="Your privacy matters. Read my Privacy Policy to understand how I handle data collection and usage on my professional portfolio website." />
+        <meta name="keywords" content="Privacy Policy, Pratyaksh Baghel, Data Collection, Contact Form Privacy" />
+        <meta name="author" content="Pratyaksh Baghel" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://pratyaksh.dev/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy | Pratyaksh Baghel" />
+        <meta property="og:description" content="Your privacy matters. Read my Privacy Policy to understand how I handle data collection and usage on my professional portfolio website." />
+        <meta property="og:image" content="https://pratyaksh.dev/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Privacy Policy | Pratyaksh Baghel" />
+        <meta name="twitter:description" content="Your privacy matters. Read my Privacy Policy to understand how I handle data collection and usage on my professional portfolio website." />
+        <meta name="twitter:image" content="https://pratyaksh.dev/og-image.png" />
       </Helmet>
       <section className="c-space section-spacing text-neutral-300 min-h-screen pt-32 pb-20">
       <div className="max-w-4xl mx-auto border border-white/10 p-8 rounded-2xl bg-black/50 backdrop-blur-md">

@@ -6,7 +6,18 @@ const TermsAndConditions = () => {
     <>
       <Helmet>
         <title>Terms and Conditions | Pratyaksh Baghel</title>
-        <meta name="description" content="Terms and conditions for using the portfolio website of Pratyaksh Baghel." />
+        <meta name="description" content="Here you can read the Terms and Conditions for using my professional portfolio website. I like to keep things clear and transparent!" />
+        <meta name="keywords" content="Terms and Conditions, Pratyaksh Baghel, Portfolio Terms, Web Developer Terms" />
+        <meta name="author" content="Pratyaksh Baghel" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://pratyaksh.dev/terms-and-conditions" />
+        <meta property="og:title" content="Terms and Conditions | Pratyaksh Baghel" />
+        <meta property="og:description" content="Here you can read the Terms and Conditions for using my professional portfolio website. I like to keep things clear and transparent!" />
+        <meta property="og:image" content="https://pratyaksh.dev/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Terms and Conditions | Pratyaksh Baghel" />
+        <meta name="twitter:description" content="Here you can read the Terms and Conditions for using my professional portfolio website. I like to keep things clear and transparent!" />
+        <meta name="twitter:image" content="https://pratyaksh.dev/og-image.png" />
       </Helmet>
       <section className="c-space section-spacing text-neutral-300 min-h-screen pt-32 pb-20">
       <div className="max-w-4xl mx-auto border border-white/10 p-8 rounded-2xl bg-black/50 backdrop-blur-md">
