@@ -12,8 +12,8 @@
   },
   "reactSnap": {
     "source": "dist",
+    "crawl": false,
     "include": [
-      "/",
       "/about",
       "/terms-and-conditions",
       "/privacy-policy"

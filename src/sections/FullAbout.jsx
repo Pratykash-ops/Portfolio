@@ -11,14 +11,14 @@ const FullAbout = () => {
         <meta name="keywords" content="Pratyaksh Baghel About, Full-Stack Developer Resume, Technical Strategist Experience, Computer Science Engineering, Graphic Era Hill University" />
         <meta name="author" content="Pratyaksh Baghel" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://pratyaksh.dev/about" />
+        <link rel="canonical" href="https://pratyaksh.minamilabs.in/about" />
         <meta property="og:title" content="About Me | Pratyaksh Baghel" />
         <meta property="og:description" content="Want to know more about me? I'm Pratyaksh Baghel, a Full-Stack Developer and Technical Strategist. Dive into my professional journey, academic background in Computer Science, and core technical competencies." />
-        <meta property="og:image" content="https://pratyaksh.dev/og-image.png" />
+        <meta property="og:image" content="https://pratyaksh.minamilabs.in/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Me | Pratyaksh Baghel" />
         <meta name="twitter:description" content="Want to know more about me? I'm Pratyaksh Baghel, a Full-Stack Developer and Technical Strategist. Dive into my professional journey and core technical competencies." />
-        <meta name="twitter:image" content="https://pratyaksh.dev/og-image.png" />
+        <meta name="twitter:image" content="https://pratyaksh.minamilabs.in/og-image.png" />
       </Helmet>
       <section className="c-space section-spacing pt-32 pb-20 min-h-screen">
       <div className="max-w-4xl mx-auto">
