@@ -1,328 +1,197 @@
+export const projectTags = {
+  react: { id: 1, name: "React", path: "/assets/logos/react.svg" },
+  tailwindcss: { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+  nextjs: { id: 3, name: "Next.js", path: "/assets/logos/nextjs.svg" },
+  nodejs: { id: 4, name: "Node.js", path: "/assets/logos/nodejs.svg" },
+  mongodb: { id: 5, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+  html5: { id: 6, name: "HTML5", path: "/assets/logos/html5.svg" },
+  css3: { id: 7, name: "CSS3", path: "/assets/logos/css3.svg" },
+  javascript: { id: 8, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+  vitejs: { id: 9, name: "Vite.js", path: "/assets/logos/vitejs.svg" },
+  git: { id: 10, name: "Git", path: "/assets/logos/git.svg" },
+  github: { id: 11, name: "GitHub", path: "/assets/logos/github.svg" },
+  auth0: { id: 12, name: "Auth0", path: "/assets/logos/auth0.svg" },
+  cplusplus: { id: 13, name: "C++", path: "/assets/logos/cplusplus.svg" },
+  sqlite: { id: 14, name: "SQLite", path: "/assets/logos/sqlite.svg" },
+  stripe: { id: 15, name: "Stripe", path: "/assets/logos/stripe.svg" },
+  firebase: { id: 16, name: "Firebase", path: "/assets/logos/firebase.svg" },
+  threejs: { id: 17, name: "Three.js", path: "/assets/logos/threejs.svg" },
+  visualstudiocode: { id: 18, name: "Visual Studio Code", path: "/assets/logos/visualstudiocode.svg" },
+  microsoft: { id: 19, name: "Microsoft", path: "/assets/logos/microsoft.svg" },
+  microsoftsqlserver: { id: 20, name: "Microsoft SQL Server", path: "/assets/logos/microsoftsqlserver.svg" },
+  socketio: { id: 21, name: "Socket.IO", path: "/assets/logos/socket-io.svg" },
+};
+
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+    title: "Netspire",
+    description: "An Instagram clone application developed in 2022 featuring social interactions and media sharing.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Developed a full-stack social media platform with features analogous to Instagram.",
+      "Implemented secure user authentication and media uploading workflows.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+    image: "/assets/projects/netspire.png", // Kept generic placeholder
+    tags: [projectTags.react, projectTags.tailwindcss, projectTags.nodejs, projectTags.mongodb, projectTags.github, projectTags.firebase],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+    title: "Kynn",
+    description: "An e-commerce website selling books inspired by Amazon, featuring a crazy UI and full checkout logic.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built in 2024 with a highly engaging and modern user interface.",
+      "Implemented comprehensive e-commerce logic including cart management, checkout, and payment flows.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+    href: "https://kynn.vercel.app/",
+    logo: "https://kynn.vercel.app/favicon.ico",
+    image: "/assets/projects/kynn.png",
+    tags: [projectTags.nextjs, projectTags.tailwindcss, projectTags.nodejs, projectTags.mongodb, projectTags.git, projectTags.stripe],
   },
   {
     id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+    title: "Anime Group India - Summer anime fiesta 2025",
+    description: "Event landing page for AGI SAF 2025.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Designed an engaging event landing page for a large-scale community event.",
+      "Optimized for high traffic and integrated event registration details.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+    href: "https://summer-anime-fiesta.vercel.app/",
+    logo: "https://summer-anime-fiesta.vercel.app/favicon.ico",
+    image: "/assets/projects/agi-clan-wars.png",
+    tags: [projectTags.html5, projectTags.css3, projectTags.javascript, projectTags.git],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
+  title: "Hyosan Minecraft SMP Website",
+  description:
+    "An immersive Minecraft community platform featuring server statistics, economy tracking, team systems, and historical timelines for the Hyosan SMP universe.",
+
+  subDescription: [
+    "Developed an interactive dashboard displaying live server information, player statistics, economy metrics, and community announcements.",
+    "Designed a modern community platform showcasing SMP history, custom gameplay features, and onboarding information for Java and Bedrock players.",
+  ],
+
+  href: "https://dev-neon-kappa.vercel.app/?home=1",
+  logo: "https://dev-neon-kappa.vercel.app/favicon.ico",
+  image: "/assets/projects/hyosan-smp.jpg",
+
+  tags: [
+    projectTags.html5, projectTags.css3, projectTags.javascript, projectTags.github
+  ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+    title: "AGI Treasure Hunt",
+    description: "An interactive digital treasure hunt experience for community engagement.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Built systems for real-time puzzle solving and progression tracking.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
+    image: "/assets/projects/agi-treasure-hunt.png",
+    tags: [projectTags.nextjs, projectTags.tailwindcss, projectTags.nodejs, projectTags.mongodb, projectTags.socketio],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+    title: "AGI Cosplayer Portal",
+    description: "A dedicated portal for cosplayers to register, showcase, and manage event participation.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Streamlined the registration and verification process for event cosplayers.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
+    image: "/assets/projects/agi-cosplayer-portal.png",
+    tags: [projectTags.nextjs, projectTags.tailwindcss, projectTags.nodejs, projectTags.mongodb, projectTags.socketio],
   },
+  {
+    id: 7,
+    title: "Orchid International Website",
+    description: "Official website for Orchid International driving sales and digital branding.",
+    subDescription: [
+      "Optimized website performance and conversion funnels.",
+      "Integrated business strategy with modern digital solutions to boost marketing campaigns.",
+    ],
+    href: "http://orchidintl.in/",
+    logo: "http://orchidintl.in/favicon.ico",
+    image: "/assets/projects/orchidinternational.png",
+    tags: [projectTags.nextjs, projectTags.tailwindcss, projectTags.nodejs, projectTags.mongodb],
+  },
+  {
+    id: 8,
+    title: "Shubham Singhal Psychologist",
+    description: "A modern website for a medical professional ensuring responsive user experiences.",
+    subDescription: [
+      "Developed a tailored CMS integration for easy content management.",
+    ],
+    href: "https://shubham-singhal-clinic.vercel.app/",
+    logo: "https://shubham-singhal-clinic.vercel.app/favicon.ico",
+    image: "/assets/projects/psychologistSite.png",
+    tags: [projectTags.react, projectTags.tailwindcss,],
+  },
+  {
+    id: 9,
+    title: "Watchnet",
+    description: "A Netflix clone application developed in 2023, hosting movies on Google Drive.",
+    subDescription: [
+      "Created a video streaming interface inspired by Netflix.",
+      "Integrated Google Drive as a robust, cost-effective storage solution for media files.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/watchnet.png",
+    tags: [projectTags.nextjs, projectTags.tailwindcss, projectTags.nodejs, projectTags.mongodb, projectTags.firebase],
+  }
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/918368644902?text=Hi! I'm interested in your work and would love to discuss a potential project or collaboration. Looking forward to hearing from you!",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/pratyaksh-baghel-021495335/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/bypratyakshbaghel/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Student & Freelancer",
+    job: "Graphic Era Hill University / Self-Employed",
+    date: "Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Presently working self-employed taking clients for bespoke digital solutions and web development.",
+      "Concurrently pursuing a Bachelor of Technology in Computer Science & Engineering."
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Technical Lead",
+    job: "AnimeGroupIndia (AGI)",
+    date: "2025 - 2026",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Built and managed technological infrastructure for one of India's emerging anime communities.",
+      "Led multidisciplinary teams across technology, operations, and marketing.",
+      "Designed scalable community systems and engagement platforms.",
+      "Established operational frameworks and digital ecosystems for large-scale events."
     ],
   },
   {
-    title: "Freelance Developer",
+    title: "Freelance Full-Stack Developer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2020 - 2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Healthcare: Developed modern websites and management systems for medical professionals and clinics.",
+      "Travel Technology: Designed and engineered tailored solutions for travel agencies and booking workflows.",
+      "Community & Event Platforms: Built engagement-driven systems for conventions, communities, and interactive experiences."
     ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
   },
 ];
