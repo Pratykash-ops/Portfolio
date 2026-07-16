@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const PrivacyPolicy = () => {
   return (
-    <section className="c-space section-spacing text-neutral-300 min-h-screen pt-32 pb-20">
+    <>
+      <Helmet>
+        <title>Privacy Policy | Pratyaksh Baghel</title>
+        <meta name="description" content="Privacy policy regarding data collection and usage on the portfolio website of Pratyaksh Baghel." />
+      </Helmet>
+      <section className="c-space section-spacing text-neutral-300 min-h-screen pt-32 pb-20">
       <div className="max-w-4xl mx-auto border border-white/10 p-8 rounded-2xl bg-black/50 backdrop-blur-md">
         <h1 className="text-3xl font-bold text-white mb-6">Privacy Policy</h1>
         <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
@@ -30,6 +36,7 @@ const PrivacyPolicy = () => {
         <p className="mb-4">You have the right to request the deletion of any email correspondence we have had. If you wish for me to delete your emails from my inbox, simply reply to our thread or send a new message requesting so.</p>
       </div>
     </section>
+    </>
   );
 };
 

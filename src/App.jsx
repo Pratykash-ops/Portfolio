@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navbar from "./sections/navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
@@ -19,6 +20,10 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <>
+              <Helmet>
+                <title>Pratyaksh Baghel | Full-Stack Developer</title>
+                <meta name="description" content="Portfolio of Pratyaksh Baghel, a Full-Stack Developer and Technical Strategist focused on building scalable web solutions." />
+              </Helmet>
               <Hero />
               <About />
               <Projects />

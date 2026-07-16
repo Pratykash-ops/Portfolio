@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const TermsAndConditions = () => {
   return (
-    <section className="c-space section-spacing text-neutral-300 min-h-screen pt-32 pb-20">
+    <>
+      <Helmet>
+        <title>Terms and Conditions | Pratyaksh Baghel</title>
+        <meta name="description" content="Terms and conditions for using the portfolio website of Pratyaksh Baghel." />
+      </Helmet>
+      <section className="c-space section-spacing text-neutral-300 min-h-screen pt-32 pb-20">
       <div className="max-w-4xl mx-auto border border-white/10 p-8 rounded-2xl bg-black/50 backdrop-blur-md">
         <h1 className="text-3xl font-bold text-white mb-6">Terms and Conditions</h1>
         <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
@@ -20,6 +26,7 @@ const TermsAndConditions = () => {
         <p className="mb-4">I strive to keep the information on this website accurate and up-to-date, but I make no warranties regarding the completeness or accuracy of the content. I will not be liable for any damages arising from the use of this website.</p>
       </div>
     </section>
+    </>
   );
 };
 

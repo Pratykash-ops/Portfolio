@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const FullAbout = () => {
   return (
-    <section className="c-space section-spacing pt-32 pb-20 min-h-screen">
+    <>
+      <Helmet>
+        <title>About Me | Pratyaksh Baghel</title>
+        <meta name="description" content="Learn more about Pratyaksh Baghel, a Full-Stack Developer and Technical Strategist. Read about my professional profile, academic background, and core competencies." />
+      </Helmet>
+      <section className="c-space section-spacing pt-32 pb-20 min-h-screen">
       <div className="max-w-4xl mx-auto">
         <Link to="/" className="text-indigo-500 hover:text-indigo-400 mb-8 inline-block">&larr; Back to Home</Link>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Pratyaksh Baghel</h1>
@@ -81,6 +87,7 @@ const FullAbout = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
